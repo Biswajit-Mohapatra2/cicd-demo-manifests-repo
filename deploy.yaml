@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo
-        image: biswajitmohapatra22/cicd-todo:24
+        image: biswajitmohapatra22/cicd-todo:${BUILD_NUMBER}
         ports:
         - containerPort: 8000
 
