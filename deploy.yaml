@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo
-        image: biswajitmohapatra/cicd-todo:24
+icd-todo:32/g
         ports:
         - containerPort: 8000
 
