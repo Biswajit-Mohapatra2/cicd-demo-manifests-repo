@@ -11,6 +11,6 @@ spec:
         path: "/bar"
         backend:
           service:
-            name: service1
+            name: todo-service
             port:
               number: 80
