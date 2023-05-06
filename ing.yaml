@@ -3,8 +3,9 @@ kind: Ingress
 metadata:
   name: ing
 spec:
+  ingressClassName: nginx
   rules:
-  - host: "foo.bar.com"
+  - host: "biswa.info"
     http:
       paths:
       - pathType: Prefix
